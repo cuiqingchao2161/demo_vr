@@ -11,7 +11,7 @@ import android.opengl.Matrix;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.qiaofang.vrlibrary.model.Constants;
+import com.cui.vrlibrary.model.Constants;
 import com.wolfwang.demo_vr.cylinder.sample.MatrixState;
 
 import java.io.IOException;

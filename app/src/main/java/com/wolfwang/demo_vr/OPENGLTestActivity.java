@@ -15,7 +15,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
-import com.qiaofang.vrlibrary.model.Photo;
+import com.cui.vrlibrary.model.Photo;
 import com.wolfwang.demo_vr.widget.MyGLSurfaceView;
 
 import java.io.IOException;
@@ -25,7 +25,7 @@ import static android.opengl.GLSurfaceView.DEBUG_CHECK_GL_ERROR;
 import static android.opengl.GLSurfaceView.DEBUG_LOG_GL_CALLS;
 
 public class OPENGLTestActivity extends AppCompatActivity {
-    com.qiaofang.vrlibrary.glview.GLPhotoView glSurfaceView;
+    com.cui.vrlibrary.glview.GLPhotoView glSurfaceView;
 //    public static float mAngleX = 0;// 摄像机所在的x坐标
 //    public static float mAngleY = 0;// 摄像机所在的y坐标
 //    public static float mAngleZ = 3;// 摄像机所在的z坐标
@@ -43,7 +43,7 @@ public class OPENGLTestActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 //        setContentView(R.layout.activity_opengltest);
-        glSurfaceView = new com.qiaofang.vrlibrary.glview.GLPhotoView(this);
+        glSurfaceView = new com.cui.vrlibrary.glview.GLPhotoView(this);
 //        glSurfaceView = (com.wolfwang.demo_vr.widget.MyGLSurfaceView) findViewById(R.id.gl_view);
         glSurfaceView.setLayoutParams(new RelativeLayout.LayoutParams(-1, -1));
 //        setContentView(glSurfaceView);
